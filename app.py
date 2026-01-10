@@ -96,6 +96,7 @@ if uploaded_file:
         y = df_encoded[y_col]
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+# applying gradient booster 
         model = GradientBoostingRegressor()
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
