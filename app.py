@@ -8,6 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingRegressor
 from sklearn.metrics import classification_report, mean_squared_error, accuracy_score, r2_score
 
+#adding title and title name 
 st.set_page_config(page_title="Launch Vehicle ML Dashboard", layout="wide")
 st.title("SkyWeight : AI Powered Payload Prediction for Launch Vehicle")
 
