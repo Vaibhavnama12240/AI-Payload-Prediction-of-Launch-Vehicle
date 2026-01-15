@@ -114,7 +114,7 @@ if uploaded_file:
         ax.set_title(f"{name} - First 50 Predictions")
         ax.legend()
         st.pyplot(fig)
-
+#training all models
     with st.spinner("🧠 Training all models..."):
         run_payload_regression()
         run_classification_task("2. Structural Integrity Classification", "structure_safe")
